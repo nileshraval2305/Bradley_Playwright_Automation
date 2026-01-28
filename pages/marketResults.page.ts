@@ -46,7 +46,7 @@ export default class MarketResultsPage extends BasePage {
 
     async selectTableView(): Promise<void> {
         await this.isElementVisible(this.tableView);
-        await this.checkRadioButtonElement(this.tableView);
+        await this.clickElement(this.tableView);
         await this.clickElement(this.tableView);
     }
     async selectMarketArea(): Promise<void> {

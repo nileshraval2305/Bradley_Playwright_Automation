@@ -1,7 +1,7 @@
 import { Expect } from "@playwright/test";
 import { test } from "../fixtures/fixture";
 
-test("Market Results Page Test", async ({ marketResultsPage, basePage, page }) => {
+test("Extract Data as Low,high,last and weight avg Data as CSV in  Market Results Page Test", async ({ marketResultsPage, basePage, page }) => {
 
 
     await test.step('Navigate to Market Results Page', async () => {

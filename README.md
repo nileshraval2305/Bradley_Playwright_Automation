@@ -45,6 +45,9 @@ pages/: This is where you'll find the Page Object Model (POM) classes. Each clas
 
 Page Fixtures : a fixture is a way to share objects or setup code across your tests.
 
-Testdata : Test data refers to the inputs, credentials, or other information used during your automated te
+Testdata : Test data refers to the inputs, credentials, or other information used during your automated test. 
 
-Playwright-TestReport A test report provides a summary of test execution, including which tests passed, failed, or were skipped.
+**Playwright-TestReport :** A test report provides a summary of test execution, including which tests passed, failed, or were skipped.
+
+
+**Note : after test run you will see extract data from market-data.csv under Test-data foler**

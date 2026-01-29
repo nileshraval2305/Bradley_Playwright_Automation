@@ -46,6 +46,7 @@ export default class MarketResultsPage extends BasePage {
 
     async selectTableView(): Promise<void> {
         await this.isElementVisible(this.tableView);
+        await this.page.waitForTimeout(2000);
         await this.clickElement(this.tableView);
         await this.clickElement(this.tableView);
     }
